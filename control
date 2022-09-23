@@ -1,0 +1,9 @@
+Package: com.eliofegh.full-likes
+Name: full likes
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: instagram reels with whole likes number
+Maintainer: Elio Feghali
+Author: Elio Feghali
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
