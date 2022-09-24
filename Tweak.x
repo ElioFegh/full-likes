@@ -14,16 +14,13 @@
 @end
 
 
-UIView *myView;
-UILabel *myLabel;
 
 %hook IGUnifiedVideoLikeCountButton
 
 -(void)configureWithLikeCount:(NSInteger)arg1{
 %orig;
 
-myView = self.subviews[0];
-myLabel = myView.subviews[0];
+UILabel *myLabel = MSHookIvar<UILabel*>(self,"_label");
 myLabel.text = [NSString stringWithFormat:@"%ld",arg1];
 
 }
