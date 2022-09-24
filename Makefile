@@ -6,7 +6,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = fulllikes
 
-fulllikes_FILES = Tweak.x
+fulllikes_FILES = Tweak.xm
 fulllikes_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
