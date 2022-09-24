@@ -5,7 +5,7 @@
 @property (nonatomic, assign, readwrite) NSString *text;
 @end
 
-@interface IGUnifiedVideoLikeCountButton : UIView
+@interface IGUnifiedVideoLikeCountButton
 -(void)configureWithLikeCount:(NSInteger)arg1;
 @end
 
