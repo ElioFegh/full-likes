@@ -1,6 +1,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSArray.h>
 
+@interface UILabel
+@property (nonatomic, assign, readwrite) NSString *text;
+@end
 
 @interface IGUnifiedVideoLikeCountButton : UIView
 -(void)configureWithLikeCount:(NSInteger)arg1;
