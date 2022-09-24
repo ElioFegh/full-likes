@@ -1,13 +1,6 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSArray.h>
 
-@interface UIView
-@property (nonatomic, assign ,readwrite) NSArray *subviews;
-@end
-
-@interface UILabel : UIView
-@property (nonatomic, assign, readwrite) NSString *text;
-@end
 
 @interface IGUnifiedVideoLikeCountButton : UIView
 -(void)configureWithLikeCount:(NSInteger)arg1;
